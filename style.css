@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-    padding-right: 6%;
-    padding-left: 6%;
+    padding-left: calc((100% - 940px)/2);
+    padding-right: calc((100% - 940px)/2);
 }
 

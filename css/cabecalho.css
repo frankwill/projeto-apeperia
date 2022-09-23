@@ -14,7 +14,7 @@
 
     border-bottom: 1px solid var(--borda-cabecalho-mobile);
 
-    position: absolute;
+    position: absolute; /*cabecalho esta acima de todos elementos da página*/
 }
 
 .cabecalho__logo {
@@ -33,4 +33,21 @@
     margin-right: .7rem;
     margin-bottom: 1.25rem;
     margin-left: .7rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: initial;
+        align-items: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom:none
+    }
+
+    .cabecalho__link {
+        padding: 1rem;
+        margin: 0;
+    }
 }
