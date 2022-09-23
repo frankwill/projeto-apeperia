@@ -1,0 +1,44 @@
+.destaques {
+    background: var(--azul-claro);
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.destaques__titulo {
+    color: var(--cinza-escuro);
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.destaques__painel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.destaques__painel-imagem {
+    width: 100vw; /*o card ocupara 100% da largura do viewport*/
+    max-width: 600px; /*Limitar o crecimento da imagems com unidades relativas, limitado com 600px*/
+    box-shadow: 0 2px 10px 5px #00000020;
+    margin-bottom: .5rem;
+}
+
+.destaques__painel-texto {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--preto);
+    font-size: 19px;
+    line-height: normal;
+}
+
+.destaques__botao {
+    color: var(--vermelho-forte);
+    border-color: var(--vermelho-forte);
+
+}

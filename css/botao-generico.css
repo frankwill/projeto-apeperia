@@ -1,0 +1,10 @@
+.botao {
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    border: 1px solid var(--branco);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
