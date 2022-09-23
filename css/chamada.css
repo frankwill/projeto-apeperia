@@ -32,3 +32,9 @@
     width: 100%;
     border: 1px solid var(--branco);
 }
+
+@media screen and (min-width: 768px) { /*Versão tablet*/
+    .chamada__texto {
+        max-width: 600px;
+    }
+}
